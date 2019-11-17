@@ -97,6 +97,8 @@ footer {
 
 #letterButtons {
   display: inline-flex;
+  display: -webkit-flex: 1;
+  display: -ms-flex: 1;
   list-style-type: none;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -112,6 +114,8 @@ footer {
 
 #letterBoxes li {
   display: inline-flex;
+  display: -webkit-flex: 1;
+  display: -ms-flex: 1;
 }
 
 #letterBoxes input {
